@@ -201,7 +201,6 @@ This confirms:
 
 # 🏗️ System Architecture Overview
 
-```mermaid
 flowchart LR
     A[Upload Financial PDF] --> B[FastAPI Endpoint]
     B --> C[Temporary File Storage]
